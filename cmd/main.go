@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/harmony-one/harmony-tf/config"
-	"github.com/harmony-one/harmony-tf/testcases"
+	"github.com/hyperion-hyn/hyperion-tf/config"
+	"github.com/hyperion-hyn/hyperion-tf/testcases"
 )
 
 func main() {
