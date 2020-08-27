@@ -33,3 +33,5 @@ go.mod*.tmp
 
 # DS_Store
 .DS_Store
+
+.env
