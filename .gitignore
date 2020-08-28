@@ -35,3 +35,4 @@ go.mod*.tmp
 .DS_Store
 
 .env
+.idea
