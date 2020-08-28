@@ -36,7 +36,7 @@ staking_parameters:
     validator:
       details:
         name: "HarmonyTF_EVDES6_Validator (New Name)"
-        identity: "CompletelyDifferentIdentity"
+        identity: "HarmonyTF_EVDES6_Validator_edit"
         website: "https://www.CompletelyDifferentWebsite.com"
         security_contact: "The other guy got fired, this is the new security contact"
         details: "Ok, here are the new details"

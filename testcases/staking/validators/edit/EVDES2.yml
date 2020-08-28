@@ -35,5 +35,5 @@ staking_parameters:
   edit:
     validator:
       details:
-        identity: "CompletelyDifferentIdentity"
+        identity: "HarmonyTF_EVDES2_Validator_Edited"
     randomize_unique_fields: false
