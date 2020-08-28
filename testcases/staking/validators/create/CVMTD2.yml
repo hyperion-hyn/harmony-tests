@@ -30,4 +30,4 @@ staking_parameters:
       minimum_self_delegation: 10
       maximum_total_delegation: ""
     bls_key_count: 1
-    randomize_unique_fields: true
+    randomize_unique_fields: false
