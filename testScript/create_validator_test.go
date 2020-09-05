@@ -142,7 +142,7 @@ func TestCreateValidator(t *testing.T) {
 	// todo here add expend more staking price
 	gasPrice, _ := big.NewInt(0).SetString("100000000000000000", 10)
 
-	stakingTx := types.NewStakingTransaction(currentNonce, calculatedGasLimit*3, gasPrice, bytes, types.StakeCreateVal)
+	stakingTx := types.NewStakingTransaction(currentNonce, calculatedGasLimit*3, gasPrice, bytes, types.CreateValidator)
 	signedTx, err := staking.SignStakingTransaction(account.Keystore, account.Account, stakingTx, chain.Value)
 
 	signature, err = sdkTxs.EncodeSignature(signedTx)
