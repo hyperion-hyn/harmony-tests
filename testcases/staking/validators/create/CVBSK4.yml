@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVBSK4"
 goal: "Bls key signature not verifiable"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/create/standard"

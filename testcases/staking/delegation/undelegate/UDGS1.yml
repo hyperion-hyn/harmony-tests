@@ -2,7 +2,7 @@ category: "Undelegate"
 name: "UDGS1"
 goal: "Specify small gas limit to cause 'txn out of gas'"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/delegation/undelegate/standard"

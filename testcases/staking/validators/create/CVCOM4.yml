@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVCOM4"
 goal: "Max rate == 1"
 priority: 0
-execute: true
+execute: false
 expected: true
 verbose: true
 scenario: "staking/validator/create/standard"

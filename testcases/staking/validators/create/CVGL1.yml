@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVGL1"
 goal: "Specify small gas limit to cause 'txn out of gas'"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/create/standard"

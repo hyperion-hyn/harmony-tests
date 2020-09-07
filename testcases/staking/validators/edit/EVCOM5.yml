@@ -2,7 +2,7 @@ category: "Edit Validator" # TODO need modify this test case
 name: "EVCOM5"
 goal: "Edit commission in next epoch"
 priority: 0
-execute: true
+execute: false
 expected: true
 verbose: true
 scenario: "staking/validator/edit/standard"

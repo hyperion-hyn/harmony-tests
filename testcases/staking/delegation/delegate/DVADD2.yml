@@ -2,7 +2,7 @@ category: "Delegate"
 name: "DVADD2"
 goal: "Validator doesn't exist at the validator address"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/delegation/delegate/non_existing"

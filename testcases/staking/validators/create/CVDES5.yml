@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVDES5"
 goal: "Security contact longer than 140 characters"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/create/standard"

@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVDES3"
 goal: "duplicate identity (other's identity)"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/create/standard"

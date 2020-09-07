@@ -2,7 +2,7 @@ category: "Edit Validator"
 name: "EVADD1"
 goal: "Validator address != sender address"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/edit/invalid_address"

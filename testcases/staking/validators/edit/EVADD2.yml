@@ -2,7 +2,7 @@ category: "Edit Validator"
 name: "EVADD2"
 goal: "Editing on non-validator address"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/edit/non_existing"

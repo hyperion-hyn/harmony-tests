@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVBSK6"
 goal: "Duplicate bls keys (with other's key)"
 priority: 0
-execute: true
+execute: false
 expected: false
 verbose: true
 scenario: "staking/validator/create/existing_bls_key"

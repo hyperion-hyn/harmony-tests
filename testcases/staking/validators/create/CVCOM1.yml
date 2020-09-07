@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVCOM1"
 goal: "Commission rate <= max rate & max change rate <= max rate"
 priority: 0
-execute: true
+execute: false
 expected: true
 verbose: true
 scenario: "staking/validator/create/standard"
