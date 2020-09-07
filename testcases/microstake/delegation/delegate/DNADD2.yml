@@ -2,10 +2,10 @@ category: "Delegate"
 name: "DNADD2"
 goal: "Validator doesn't exist at the validator address"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
-scenario: "staking/delegation/delegate/non_existing"
+scenario: "microstake/delegation/delegate/non_existing"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

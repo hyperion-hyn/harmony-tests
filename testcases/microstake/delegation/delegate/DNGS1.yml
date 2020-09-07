@@ -2,10 +2,10 @@ category: "Delegate"
 name: "DNGS1"
 goal: "Specify small gas limit to cause 'txn out of gas'"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
-scenario: "staking/delegation/delegate/standard"
+scenario: "microstake/delegation/delegate/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0
