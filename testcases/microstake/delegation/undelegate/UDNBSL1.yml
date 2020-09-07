@@ -2,7 +2,7 @@ category: "Undelegate"
 name: "UDNBSL1"
 goal: "Successful undelegation"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "microstake/delegation/undelegate/standard"
