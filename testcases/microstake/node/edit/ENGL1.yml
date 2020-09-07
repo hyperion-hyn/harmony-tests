@@ -2,10 +2,10 @@ category: "Edit Validator"
 name: "ENGL1"
 goal: "specify small gas limit to cause 'txn out of gas'"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
-scenario: "staking/validator/edit/standard"
+scenario: "microstake/node/edit/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

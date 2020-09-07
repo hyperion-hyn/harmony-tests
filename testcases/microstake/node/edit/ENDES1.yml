@@ -2,7 +2,7 @@ category: "Edit Map3 Node"
 name: "ENDES1"
 goal: "Edit name"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "microstake/node/edit/standard"
