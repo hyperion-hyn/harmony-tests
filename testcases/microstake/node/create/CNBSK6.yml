@@ -2,10 +2,10 @@ category: "Create Validator"
 name: "CNBSK6"
 goal: "Duplicate bls keys (with other's key)"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
-scenario: "staking/validator/create/existing_bls_key"
+scenario: "microstake/node/create/existing_bls_key"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

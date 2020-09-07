@@ -2,10 +2,10 @@ category: "Create Validator"
 name: "CNDES7"
 goal: "Name == 140 characters"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
-scenario: "staking/validator/create/standard"
+scenario: "microstake/node/create/standard"
 staking_parameters:
   from_shard_id: 0
   to_shard_id: 0

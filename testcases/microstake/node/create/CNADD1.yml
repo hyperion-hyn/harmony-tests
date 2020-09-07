@@ -2,7 +2,7 @@ category: "Create Map3Node"
 name: "CNADD1"
 goal: "Create Map3Node"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "microstake/node/create/standard"

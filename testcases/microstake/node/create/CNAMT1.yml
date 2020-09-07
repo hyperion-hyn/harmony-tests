@@ -2,10 +2,10 @@ category: "Create Validator"
 name: "CNAMT1"
 goal: "Amount > account balance"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
-scenario: "staking/validator/create/standard"
+scenario: "microstake/node/create/standard"
 staking_parameters:
   mode: "amount_larger_than_balance"
   from_shard_id: 0
