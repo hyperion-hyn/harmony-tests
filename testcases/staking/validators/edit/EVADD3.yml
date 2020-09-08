@@ -2,7 +2,7 @@ category: "Edit Validator" #TODO need modify this case
 name: "EVADD3"
 goal: "operator address invalid"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
 scenario: "staking/validator/edit/non_existing"

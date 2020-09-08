@@ -2,7 +2,7 @@ category: "Delegate"
 name: "DVBSL1"
 goal: "Delegation with user balance"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "staking/delegation/delegate/standard"

@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVADD1"
 goal: "Create Validator"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "staking/validator/create/standard"

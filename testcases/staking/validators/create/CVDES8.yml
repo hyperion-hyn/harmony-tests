@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVDES8"
 goal: "Identity == 140 characters"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "staking/validator/create/standard"

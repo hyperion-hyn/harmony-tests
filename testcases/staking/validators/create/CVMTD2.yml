@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVMTD2"
 goal: "MaxTotalDelegation not specified"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
 scenario: "staking/validator/create/standard"

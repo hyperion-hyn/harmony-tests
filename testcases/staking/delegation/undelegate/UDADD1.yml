@@ -2,7 +2,7 @@ category: "Undelegate"
 name: "UDADD1"
 goal: "Delegator address != sender address"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
 scenario: "staking/delegation/undelegate/invalid_address"

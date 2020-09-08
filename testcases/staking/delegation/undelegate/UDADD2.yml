@@ -2,7 +2,7 @@ category: "Undelegate"
 name: "UDADD2"
 goal: "Validator doesn't exist at the validator address"
 priority: 0
-execute: false
+execute: true
 expected: false
 verbose: true
 scenario: "staking/delegation/undelegate/non_existing"

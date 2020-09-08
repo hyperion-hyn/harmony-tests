@@ -2,7 +2,7 @@ category: "Create Validator"
 name: "CVBSK1"
 goal: "one bls key specified"
 priority: 0
-execute: false
+execute: true
 expected: true
 verbose: true
 scenario: "staking/validator/create/standard"
