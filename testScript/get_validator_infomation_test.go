@@ -16,7 +16,7 @@ func TestGetValidatorInformation(t *testing.T) {
 		fmt.Printf("%v", err)
 	}
 
-	validatorAddress := common.HexToAddress("0x22082B79a5890A08d2a2a8Ee77994D7245090c3b")
+	validatorAddress := common.HexToAddress("0xbF45A07ca054535Aafd703e47D4a82A5eB1f89DD")
 
 	validator, err := client.GetValidatorInformation(context.Background(), validatorAddress, nil)
 

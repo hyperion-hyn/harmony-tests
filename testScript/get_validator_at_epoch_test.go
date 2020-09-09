@@ -10,23 +10,23 @@ import (
 	"testing"
 )
 
-func TestGetMap3NodeInformation(t *testing.T) {
+func TestGetValidatorInformationAtEpoch(t *testing.T) {
 	client, err := ethclient.Dial("http://localhost:8545")
 	if err != nil {
 		fmt.Printf("%v", err)
 	}
 
-	validatorAddress := common.HexToAddress("0x3D62D5692AE15Bbcc70a0C47A0cEEc1C19Cd410d")
+	validatorAddress := common.HexToAddress("0xbF45A07ca054535Aafd703e47D4a82A5eB1f89DD")
 
-	map3NodeWrapper, err := client.GetMap3NodeInformation(context.Background(), validatorAddress, nil)
+	validator, err := client.GetValidatorInformationAtEpoch(context.Background(), validatorAddress, 5)
 
 	if err != nil {
 		fmt.Printf("%v", err)
 	}
 
-	fmt.Println(fmt.Sprintf("got map3NodeWrapper address :%s", map3NodeWrapper.Map3Node.Map3Address.Hex()))
+	fmt.Println(fmt.Sprintf("got validator address :%s", validator.Validator.ValidatorAddress.Hex()))
 
-	for _, redelegation := range map3NodeWrapper.Microdelegations {
+	for _, redelegation := range validator.Redelegations {
 		fmt.Println(fmt.Sprintf("user: %s,amount: %s", redelegation.DelegatorAddress.Hex(), new(big.Int).Quo(redelegation.Amount, big.NewInt(params.Ether))))
 	}
 
