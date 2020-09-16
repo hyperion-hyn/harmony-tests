@@ -4,6 +4,7 @@ goal: "operator address invalid"
 priority: 0
 execute: true
 expected: false
+expect_err: "staking validator does not exist"
 verbose: true
 scenario: "staking/validator/edit/non_existing"
 staking_parameters:

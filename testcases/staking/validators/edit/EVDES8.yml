@@ -4,6 +4,7 @@ goal: "Identity longer than 140 characters"
 priority: 0
 execute: true
 expected: false
+expect_err: "exceed Maximum Length identity 144 140"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:

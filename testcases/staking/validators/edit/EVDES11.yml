@@ -4,6 +4,7 @@ goal: "Details longer than 280 characters"
 priority: 0
 execute: true
 expected: false
+expect_err: "exceed Maximum Length for details 481 280"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:

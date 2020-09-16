@@ -4,6 +4,7 @@ goal: "Commission rate > max rate  (repeatedly change comm-rate so it's > 0.5)"
 priority: 0
 execute: true
 expected: false
+expect_err: "rate:0.510000000000000000 max rate:0.500000000000000000: commission rate and change rate can not be larger than max commission rate"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:

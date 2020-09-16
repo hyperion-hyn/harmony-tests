@@ -4,6 +4,7 @@ goal: "specify small gas limit to cause 'txn out of gas'"
 priority: 0
 execute: true
 expected: false
+expect_err: "intrinsic gas too low"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:

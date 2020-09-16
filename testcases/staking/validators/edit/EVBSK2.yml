@@ -4,6 +4,7 @@ goal: "Add slot key that already exists"
 priority: 0
 execute: true
 expected: false
+expect_err: "duplicate public key"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:

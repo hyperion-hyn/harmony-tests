@@ -4,6 +4,7 @@ goal: "Commission rate change > max change rate (within the same epoch)"
 priority: 0
 execute: true
 expected: false
+expect_err: "change on commission rate can not be more than max change rate within the same epoch"
 verbose: true
 scenario: "staking/validator/edit/standard"
 staking_parameters:
