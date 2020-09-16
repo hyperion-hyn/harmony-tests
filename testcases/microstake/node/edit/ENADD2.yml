@@ -4,6 +4,7 @@ goal: "Editing on non-validator address"
 priority: 0
 execute: true
 expected: false
+expect_err: "map3 node does not exist"
 verbose: true
 scenario: "microstake/node/edit/non_existing"
 staking_parameters:

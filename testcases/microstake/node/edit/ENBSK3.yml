@@ -4,6 +4,7 @@ goal: "too many bls keys added" # TODO
 priority: 0
 execute: true
 expected: false
+expect_err: "have: 2 allowed: 1: more slot keys provided than allowed"
 verbose: true
 scenario: "microstake/node/edit/standard"
 staking_parameters:
@@ -30,5 +31,5 @@ staking_parameters:
     bls_key_count: 1
     randomize_unique_fields: true
   editMap3Node:
-    mode: "add_existing_bls_key"
+    mode: "add_bls_key"
     randomize_unique_fields: true

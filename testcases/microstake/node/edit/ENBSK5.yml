@@ -4,6 +4,7 @@ goal: "Slot key to remove not found"
 priority: 0
 execute: true
 expected: false
+expect_err: "map3 node key to remove not found"
 verbose: true
 scenario: "microstake/node/edit/standard"
 staking_parameters:

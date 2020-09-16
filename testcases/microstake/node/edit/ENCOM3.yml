@@ -1,6 +1,6 @@
 category: "Edit Validator"
 name: "ENCOM3"
-goal: "Edit commission rate"
+goal: "Edit commission rate greater create"
 priority: 0
 execute: false
 expected: true

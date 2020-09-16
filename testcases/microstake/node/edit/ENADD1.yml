@@ -4,6 +4,7 @@ goal: "Validator address != sender address"
 priority: 0
 execute: true
 expected: false
+expect_err: "invalid map3 node operator"
 verbose: true
 scenario: "microstake/node/edit/invalid_address"
 staking_parameters:

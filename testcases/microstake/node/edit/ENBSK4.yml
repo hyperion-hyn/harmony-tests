@@ -3,7 +3,8 @@ name: "ENBSK4"
 goal: "Remove slot key"
 priority: 0
 execute: true
-expected: true
+expected: false
+expect_err: "need at least one slot key"
 verbose: true
 scenario: "microstake/node/edit/standard"
 staking_parameters:

@@ -4,6 +4,7 @@ goal: "Website longer than 140 characters"
 priority: 0
 execute: true
 expected: false
+expect_err: "exceed Maximum Length website 161 140"
 verbose: true
 scenario: "microstake/node/edit/standard"
 staking_parameters:
