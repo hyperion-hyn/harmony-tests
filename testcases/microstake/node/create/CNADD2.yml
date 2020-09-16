@@ -4,6 +4,7 @@ goal: "Validator Address != Sender Address"
 priority: 0
 execute: true
 expected: false
+expect_err: "invalid signer for staking transaction"
 verbose: true
 scenario: "microstake/node/create/invalid_address"
 staking_parameters:

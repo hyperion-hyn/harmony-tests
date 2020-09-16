@@ -4,6 +4,7 @@ goal: "Commission rate < 0"
 priority: 0
 execute: true
 expected: false
+expect_err: "rlp: cannot encode negative *big.Int"
 verbose: true
 scenario: "microstake/node/create/standard"
 staking_parameters:
