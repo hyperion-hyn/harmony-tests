@@ -4,6 +4,7 @@ goal: "Details longer than 280 characters"
 priority: 0
 execute: true
 expected: false
+expect_err: "exceed Maximum Length for details 481 280"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:
@@ -12,7 +13,7 @@ staking_parameters:
   nonce: -1 # -1 means that the nonce will automatically be identified
   timeout: 60
   gas:
-    limit: 500000 # -1 means that the gas limit will automatically get calculated
+    limit: -1 # -1 means that the gas limit will automatically get calculated
     price: 1
   create:
     validator:

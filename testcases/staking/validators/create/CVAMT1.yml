@@ -4,6 +4,7 @@ goal: "Amount > account balance"
 priority: 0
 execute: true
 expected: false
+expect_err: "insufficient balance to stake"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:

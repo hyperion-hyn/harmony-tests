@@ -4,6 +4,7 @@ goal: "Duplicate bls keys (with other's key)"
 priority: 0
 execute: true
 expected: false
+expect_err: "duplicate public key"
 verbose: true
 scenario: "staking/validator/create/existing_bls_key"
 staking_parameters:

@@ -4,6 +4,7 @@ goal: "Max change rate < 0"
 priority: 0
 execute: true
 expected: false
+expect_err: "rlp: cannot encode negative *big.Int"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:

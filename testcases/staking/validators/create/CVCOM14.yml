@@ -4,6 +4,7 @@ goal: "Max rate > 1"
 priority: 0
 execute: true
 expected: false
+expect_err: "max rate:1.900000000000000000: commission rate, change rate and max rate should be a value ranging from 0.0 to 1.0"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:

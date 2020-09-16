@@ -4,6 +4,7 @@ goal: "Max change rate > max rate"
 priority: 0
 execute: true
 expected: false
+expect_err: "rate:0.100000000000000000 max change rate:0.800000000000000000: commission rate and change rate can not be larger than max commission rate"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:

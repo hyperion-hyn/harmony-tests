@@ -4,6 +4,7 @@ goal: "Name longer than 140 characters"
 priority: 0
 execute: true
 expected: false
+expect_err: "exceed maximum name length 144 140"
 verbose: true
 scenario: "staking/validator/create/standard"
 staking_parameters:
