@@ -4,6 +4,7 @@ goal: "Validator doesn't exist at the validator address"
 priority: 0
 execute: true
 expected: false
+expect_err: "staking validator does not exist"
 verbose: true
 scenario: "staking/delegation/undelegate/non_existing"
 staking_parameters:
