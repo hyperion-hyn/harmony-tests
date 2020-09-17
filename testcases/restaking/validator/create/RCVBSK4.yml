@@ -4,6 +4,7 @@ goal: "Bls key signature not verifiable"
 priority: 0
 execute: true
 expected: false
+expect_err: "bls keys and corresponding signatures could not be verified"
 verbose: true
 scenario: "restaking/validator/create/standard"
 staking_parameters:

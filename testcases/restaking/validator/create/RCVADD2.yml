@@ -4,6 +4,7 @@ goal: "Invalid Map3 Node Address"
 priority: 0
 execute: true
 expected: false
+expect_err: "map3 node does not exist"
 verbose: true
 scenario: "restaking/validator/create/invalid_map3_node_address"
 staking_parameters:
