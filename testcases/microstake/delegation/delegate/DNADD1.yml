@@ -4,6 +4,7 @@ goal: "Delegator address != sender address"
 priority: 0
 execute: true
 expected: false
+expect_err: "invalid signer for staking transaction"
 verbose: true
 scenario: "microstake/delegation/delegate/invalid_address"
 staking_parameters:
