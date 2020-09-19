@@ -16,7 +16,7 @@ staking_parameters:
   gas:
     limit: -1 # -1 means that the gas limit will automatically get calculated
     price: 1
-  createMap3Node:
+  create:
     map3Node:
       details:
         name: "HarmonyTF_CNDES3_Validator"
