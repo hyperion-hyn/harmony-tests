@@ -15,7 +15,7 @@ staking_parameters:
     limit: -1 # -1 means that the gas limit will automatically get calculated
     price: 1
   reuse_existing_validator: false
-  createMap3Node:
+  create:
     map3Node:
       details:
         name: "HarmonyTF_DNBSL1_Validator"
@@ -29,6 +29,6 @@ staking_parameters:
       maximum_total_delegation: 2000000
     bls_key_count: 1
     randomize_unique_fields: true
-  delegationMap3Node:
+  delegation:
     delegate:
       amount: 500000
