@@ -29,7 +29,7 @@ staking_parameters:
       maximum_total_delegation: 1000000
     bls_key_count: 1
     randomize_unique_fields: true
-  editMap3Node:
+  edit:
     map3Node:
       details:
         name: "HarmonyTF_ENDES6_Validator (New Name)"
