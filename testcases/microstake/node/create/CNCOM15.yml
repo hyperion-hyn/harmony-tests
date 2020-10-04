@@ -3,8 +3,8 @@ name: "CNCOM15"
 goal: "Commission rate > 0.1"
 priority: 0
 execute: true
-expected: true
-expect_err: ""
+expected: false
+expect_err: "commission rate should be a value ranging from 0.100000000000000000 to 0.100000000000000000, rate:0.110000000000000000"
 verbose: true
 scenario: "microstake/node/create/standard"
 staking_parameters:
