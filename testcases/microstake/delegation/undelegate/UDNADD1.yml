@@ -32,4 +32,5 @@ staking_parameters:
     delegate:
       amount: 500000
     undelegate:
+      wait_epoch: 10
       amount: 500000
