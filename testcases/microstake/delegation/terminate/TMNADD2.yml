@@ -1,4 +1,4 @@
-category: "Undelegate"
+category: "Terminate"
 name: "TMNADD2"
 goal: "operatorAddress not validator operator address"
 priority: 0

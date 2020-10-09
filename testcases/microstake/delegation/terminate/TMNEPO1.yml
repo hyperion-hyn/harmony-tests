@@ -1,4 +1,4 @@
-category: "Undelegate"
+category: "Terminate"
 name: "TMNEPO1"
 goal: "current epoch less then unlock epoch"
 priority: 0

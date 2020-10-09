@@ -1,4 +1,4 @@
-category: "Undelegate"
+category: "Terminate"
 name: "TMNADD3"
 goal: "singer != operator address"
 priority: 0
