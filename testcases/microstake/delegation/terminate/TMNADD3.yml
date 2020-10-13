@@ -9,8 +9,6 @@ verbose: true
 scenario: "microstake/delegation/terminate/invalid_address"
 staking_parameters:
   mode: "terminate_operator"
-  from_shard_id: 0
-  to_shard_id: 0
   nonce: -1 # -1 means that the nonce will automatically be identified
   timeout: 60
   gas:
