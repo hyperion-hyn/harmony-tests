@@ -37,5 +37,5 @@ staking_parameters:
       operator_send_renew: true
       operator_commission: 0.15
       participant_wait_epoch: 2
-      participant_renew: false
+      participant_renew: true
       participant_send_renew: true
