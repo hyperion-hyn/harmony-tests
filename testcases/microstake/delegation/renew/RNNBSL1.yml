@@ -1,6 +1,6 @@
 category: "Renew"
 name: "RNNBSL1"
-goal: "Successful terminal"
+goal: "Successful auto renew"
 priority: 0
 execute: true
 expected: true
