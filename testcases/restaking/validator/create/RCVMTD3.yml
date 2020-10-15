@@ -4,7 +4,7 @@ goal: "MaxTotalDelegation = 0"
 priority: 0
 execute: true
 expected: false
-expect_err: "total 1000000000000000000000000 max-total 0: total delegation can not be bigger than max_total_delegation"
+expect_err: "total 550000000000000000000000 max-total 0: total delegation can not be bigger than max_total_delegation"
 verbose: true
 scenario: "restaking/validator/create/standard"
 staking_parameters:
